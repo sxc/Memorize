@@ -16,7 +16,9 @@ struct EmojiMemoryGameView: View {
         
         Grid(viewModel.cards) { card in
                 CardView(card: card ).onTapGesture {
+                    withAnimation(.linear(duration: 2)) {
                     self.viewModel.choose(card: card)
+                    }
                 }
         .padding(5)
             }
@@ -24,7 +26,9 @@ struct EmojiMemoryGameView: View {
             .foregroundColor(Color.orange)
             
             Button(action: {
+                withAnimation(.easeInOut(duration: 2)) {
                 self.viewModel.resetGame()
+                }
             }, label: {Text("New Game") })
         }
     }
@@ -54,11 +58,11 @@ struct CardView: View {
             Text(card.content)
                 .font(Font.system(size: fontSize(for: size)))
                 .rotationEffect(Angle.degrees(card.isMatched ? 360: 0))
-                
                 .animation(card.isMatched ? Animation.linear(duration: 1).repeatForever(autoreverses: false) : .default)
         }
         .cardify(isFaceUp: card.isFaceUp)
-//        .cardify(isFaceUp: card.isFaceUp)
+         .transition(AnyTransition.scale)
+         .rotation3DEffect(Angle.degrees(card.isFaceUp ? 0: 180), axis: (0,1,0))
         }
     }
     // MARK: - Drawing Constants
