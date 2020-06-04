@@ -35,7 +35,13 @@ class EmojiMemoryGame: ObservableObject {
 //        objectWillChange.send()
         model.choose(card: card)
     }
+    
+    func resetGame() {
+        model = EmojiMemoryGame.createMemoryGame()
+    }
+
 }
+
 
 struct EmojiMemoryGame_Previews: PreviewProvider {
     static var previews: some View {

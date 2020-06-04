@@ -72,8 +72,8 @@
 		34AA387224828CFB00A08491 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				34037E6B24889381000E6CBB /* Cardify.swift */,
 				34AA387724828CFB00A08491 /* EmojiMemoryGameView.swift */,
+				34037E6B24889381000E6CBB /* Cardify.swift */,
 				34BFDB6D248735130013B75C /* Pie.swift */,
 				34E1A5C92483E6B40073B6AB /* EmojiMemoryGame.swift */,
 				34E1A5C72483E36C0073B6AB /* MemoryGame.swift */,
