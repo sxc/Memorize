@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34037E6C24889381000E6CBB /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34037E6B24889381000E6CBB /* Cardify.swift */; };
 		343F6B052485F5FE00E56EA8 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F6B042485F5FE00E56EA8 /* Grid.swift */; };
 		343F6B0724860FC000E56EA8 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F6B0624860FC000E56EA8 /* GridLayout.swift */; };
 		343F6B092486123B00E56EA8 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F6B082486123B00E56EA8 /* Array+Identifiable.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34037E6B24889381000E6CBB /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		343F6B042485F5FE00E56EA8 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		343F6B0624860FC000E56EA8 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		343F6B082486123B00E56EA8 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		34AA387224828CFB00A08491 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				34037E6B24889381000E6CBB /* Cardify.swift */,
 				34AA387724828CFB00A08491 /* EmojiMemoryGameView.swift */,
 				34BFDB6D248735130013B75C /* Pie.swift */,
 				34E1A5C92483E6B40073B6AB /* EmojiMemoryGame.swift */,
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34037E6C24889381000E6CBB /* Cardify.swift in Sources */,
 				34BFDB6E248735130013B75C /* Pie.swift in Sources */,
 				34AA387424828CFB00A08491 /* AppDelegate.swift in Sources */,
 				34AA387624828CFB00A08491 /* SceneDelegate.swift in Sources */,
